@@ -1,0 +1,63 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-conferenceapplicatio-jalsamobil-205341-authRole",
+			"UnauthRoleArn": "arn:aws:iam::906361668031:role/amplify-conferenceapplicatio-jalsamobil-205341-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::906361668031:role/amplify-conferenceapplicatio-jalsamobil-205341-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-conferenceapplicatio-jalsamobil-205341-deployment",
+			"UnauthRoleName": "amplify-conferenceapplicatio-jalsamobil-205341-unauthRole",
+			"StackName": "amplify-conferenceapplicatio-jalsamobil-205341",
+			"StackId": "arn:aws:cloudformation:us-east-1:906361668031:stack/amplify-conferenceapplicatio-jalsamobil-205341/0a3b1790-0d7d-11eb-9300-0e00cd5253c1",
+			"AmplifyAppId": "d3h53vc3dbt2ea"
+		}
+	},
+	"api": {
+		"conferenceapplicatio": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"apiKeyExpirationDays": 365,
+							"description": ""
+						}
+					},
+					"additionalAuthenticationProviders": []
+				},
+				"GraphQLAPIIdOutput": "foxrflisofbmrbcflvhloiklyu",
+				"GraphQLAPIEndpointOutput": "https://ww5h7in3urf2fogejs7p7u43ye.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-ipacmzk3grdmzgkkss4r2u3pca"
+			},
+			"lastPushTimeStamp": "2020-10-14T13:06:09.205Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-conferenceapplicatio-jalsamobil-205341-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apiconferenceapplicatio"
+			}
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-conferenceapplicatio-jalsamobil-205341-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2020-10-14T13:06:09.208Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d1w43a6100v34d.cloudfront.net",
+				"S3BucketSecureURL": "https://onferencepplicatio-20201014160015-hostingbucket-jalsamobil.s3.amazonaws.com",
+				"CloudFrontOriginAccessIdentity": "EXH4EIZFSUC9T",
+				"WebsiteURL": "http://onferencepplicatio-20201014160015-hostingbucket-jalsamobil.s3-website-us-east-1.amazonaws.com",
+				"CloudFrontDistributionID": "E17PFYCLK5OWQH",
+				"Region": "us-east-1",
+				"HostingBucketName": "onferencepplicatio-20201014160015-hostingbucket-jalsamobil",
+				"CloudFrontDomainName": "d1w43a6100v34d.cloudfront.net"
+			},
+			"lastPushDirHash": "sfKFER41lftJuqn7Sl+8Bb4MsTc="
+		}
+	}
+}

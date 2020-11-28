@@ -1,0 +1,15 @@
+{
+    "jalsamobil": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-conferenceapplicatio-jalsamobil-205341-authRole",
+            "UnauthRoleArn": "arn:aws:iam::906361668031:role/amplify-conferenceapplicatio-jalsamobil-205341-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::906361668031:role/amplify-conferenceapplicatio-jalsamobil-205341-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-conferenceapplicatio-jalsamobil-205341-deployment",
+            "UnauthRoleName": "amplify-conferenceapplicatio-jalsamobil-205341-unauthRole",
+            "StackName": "amplify-conferenceapplicatio-jalsamobil-205341",
+            "StackId": "arn:aws:cloudformation:us-east-1:906361668031:stack/amplify-conferenceapplicatio-jalsamobil-205341/0a3b1790-0d7d-11eb-9300-0e00cd5253c1",
+            "AmplifyAppId": "d3h53vc3dbt2ea"
+        }
+    }
+}

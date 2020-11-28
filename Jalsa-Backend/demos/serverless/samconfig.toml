@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "jalsa-hassan"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-8av4ar3jw9gx"
+s3_prefix = "jalsa-hassan"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "UseEventBridge=\"false\""
+
